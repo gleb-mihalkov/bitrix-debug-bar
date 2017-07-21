@@ -1,6 +1,6 @@
 {
     "name": "gm/bitrix-debug-bar",
-    "description": "Подключает PHPDebugBar в CMS Битрикс.",
+    "description": "Подключает PHP Debug Bar в CMS Битрикс.",
     "type": "library",
     "authors": [
         {

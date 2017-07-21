@@ -29,7 +29,7 @@ BitrixDebugBar\Debug::init();
 
 ### Простой пример
 
-```
+```php
 use BitrixDebugBar\Debug;
 
 // Выводим сообщения.
@@ -55,3 +55,9 @@ $debugger = Debug::getInstance();
 ### Объяснение
 
 Класс `Debug` предоставляет статические методы для доступа к объекту типа [DebugBar\StandardDebugBar](http://phpdebugbar.com/docs/readme.html#quick-start). С помощью метода Debug::to($name) мы можем получить нужный [коллектор](http://phpdebugbar.com/docs/data-collectors.html#using-collectors) для сообщений отладки. Вызовы же методов `info`, `warning` и прочее переадресовываются коллектору с именем `'messages'`.
+
+### Документация
+
+* [Документация](https://gleb-mihalkov.github.io/bitrix-debug-bar/) самой библиотеки;
+
+* [Документация](http://phpdebugbar.com/docs/) PHP Debug Bar.
